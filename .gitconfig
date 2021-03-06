@@ -1,0 +1,11 @@
+[user]
+	name = Yuma Ishikawa
+	email = yuma.fuu05@gmail.com
+[core]
+	editor = vim
+[credential]
+	helper = cache
+[alias]
+	conflicts = !git ls-files -u | cut -f 2 | sort -u
+[diff]
+	noprefix = true
